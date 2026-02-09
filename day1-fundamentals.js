@@ -4,9 +4,9 @@
 // Solution:
 function isEven(number) {
   if (number % 2 === 0) {
-    return "Even";
+    return "True";
   } else {
-    return "Odd";
+    return "False";
   }
 }
 
@@ -43,3 +43,4 @@ function sumArray(numbers) {
 console.log(sumArray([1, 2, 3, 4]));
 console.log(sumArray([10, 20, 30]));
 console.log(sumArray([]));
+
